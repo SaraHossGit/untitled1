@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:untitled1/bmi_result_screen.dart';
+import 'package:untitled1/bmi_screen.dart';
 import 'package:untitled1/home_screen.dart';
 import 'package:untitled1/login_screen.dart';
 import 'package:untitled1/messenger_screen.dart';
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MessengerScreen(),
+      home: BmiScreen(),
     );
   }
 
